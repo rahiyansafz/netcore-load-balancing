@@ -1,0 +1,11 @@
+@NETCore_Load_Balancing_HostAddress = http://localhost:5195
+
+GET {{NETCore_Load_Balancing_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{NETCore_Load_Balancing_HostAddress}}/todos/1
+Accept: application/json
+
+###
